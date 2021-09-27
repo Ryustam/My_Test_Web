@@ -4,9 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>도도</title>
+    <style>
+
+        body{
+            background-color: black;
+        }
+        ul{
+            text-align: left;
+            display: table;
+            margin-left: auto;
+            margin-right:54%;
+        }
+       .k{
+           font-size: 80px;
+       }
+
+       table
+       {
+           display: inline;
+           vertical-align:85%
+       }
+      li
+      {
+          font-weight: bolder;
+      }
+
+      div{
+        text-align: center;
+      }
+
+      .storyhead
+      {     
+          margin-bottom: 0%;
+          display:block;
+          background-color: plum;
+      }
+      .profile
+      {
+        background-color:aqua;
+      }
+
+      .day
+      {
+          background-color: bisque;
+      }
+
+      .mon
+      {
+          background-color:powderblue;
+      }
+      .photozone{
+          background-color: cornsilk;
+      }
+      .money{
+            margin-left: 65%;
+            font-size: 30px;
+            vertical-align:50%
+      }
+
+    
+    </style>
 </head>
 <body>
-    <h1>류승윤</h1>
+    
+    <audio style="display: inline;" id="cat" src="y2mate.com - 넬NELL  고양이cat.mp3" controls autoplay="1"></audio>
+    <table> 
+        <tr>
+            <th style="color: cyan;">Nell-고양이</th>
+        </tr>
+    </table>
+    
+    <a class="money" href="money.html" style="color: gainsboro;">후원 계좌</a>
+    
+    
+    <div class="storyhead">
+    <hr>
+    <div class = "k" style="text-align: center;" >도도'story</div>
+    <hr>
+    </div>
+
+    <div class="profile">
+        <hr>
+        <h2 >프로필</h2>
+        <a onclick="alert('뭘 쳐다보냐옹');" style="cursor:pointer"><img src="대문사진.jpg" alt="" width="480px" height="360px"></a>
+        <ul>
+            <li>이름: 도도 </li>
+            <li>나이: 6살</li>
+            <li>품종: 스코티시 스트리트</li>
+            <li>특이사항: 멍청함</li>
+        </ul>
+        
+        <hr>
+    </div>
+
+    
+    <div class="day">
+        <hr>
+        <h2>도도의 일상</h2>
+        <h4><img src="화면 캡처 2021-09-27 103336.png" alt="" width="360px" height="240px"><img src="data:image/png;base64,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" alt=""><img src="" alt=""><img src="KakaoTalk_20210927_100843615_01.jpg" width="360px" height="240px" alt=""></h4>
+        <hr>
+    </div>
+    <div class ="mon">
+        <hr> 
+        <h2>Montage</h2>
+        <video src="KakaoTalk_20210927_110157325.mp4" controls="controls" width="480px" height="360px"></video>
+        <hr>
+    </div>
+
+    <div class="photozone">
+        <h2>포토존</h2>
+        <table>
+            <tr>
+                <td><img src="화면 캡처 2021-09-27 103546.png" alt="" width="240px" height="240px"></td>
+                <td><img src="KakaoTalk_20210927_100843615_04.jpg" alt="" width="240px" height="240px"></td>
+            </tr>
+            <tr>
+                <td><img src="KakaoTalk_20210927_100843615_03.jpg" alt=""width="240px" height="240px"></td>
+                <td><img src="KakaoTalk_20210927_100843615_02.jpg" alt=""width="240px" height="240px"></td>  
+            </tr>
+        </table>
+    </div>
+    
+
+
 </body>
 </html>
